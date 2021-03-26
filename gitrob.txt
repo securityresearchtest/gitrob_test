@@ -1,0 +1,19 @@
+Gitrob
+
+Installation 
+
+Kali
+
+1. First install golang and set its path properly
+Then go to cmd and type 
+go get github.com/michenriksen/gitrob
+
+Ubuntu
+1. If you face some errors like too little literals while using this commmand 
+
+go get github.com/michenriksen/gitrob
+
+
+Try checking this solution
+$ sudo rm -rf ~/go/{src,pkg}
+$go get -u -v github.com/michenriksen/gitrob
